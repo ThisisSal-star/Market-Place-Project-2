@@ -1,9 +1,10 @@
-/* ========= CONTAINER 1: NEWSLETTER ========= */
+/* ========= FOOTER ========= */
 .footer-newsletter {
   background-color: #f5f7fa;
   padding: 40px 20px;
   text-align: center;
   border-top: 1px solid #eaeaea;
+  margin-top: 40px;
 }
 
 .newsletter-content {
@@ -40,7 +41,6 @@
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
-  color: #999;
 }
 
 .newsletter-form input[type="email"] {
@@ -66,14 +66,13 @@
   background-color: #0066dd;
 }
 
-/* ========= CONTAINER 2: ABOUT ========= */
+/* Footer About */
 .footer-about {
   background-color: #fff;
   border-top: 1px solid #eaeaea;
   padding-top: 40px;
 }
 
-/* main grid */
 .footer-main {
   display: flex;
   justify-content: space-between;
@@ -83,10 +82,8 @@
   margin: 0 auto;
   padding: 0 20px 40px;
   gap: 60px;
-  font-family: Inter, sans-serif;
 }
 
-/* left column */
 .footer-logo {
   flex: 1;
   min-width: 200px;
@@ -120,7 +117,7 @@
   transform: scale(1.1);
 }
 
-/* link columns */
+/* Footer Links */
 .footer-links {
   display: flex;
   justify-content: space-between;
@@ -155,7 +152,7 @@
   color: #007bff;
 }
 
-/* get app */
+/* Get App */
 .get-app {
   display: flex;
   flex-direction: column;
@@ -178,7 +175,7 @@
   display: block;
 }
 
-/* copyright */
+/* Footer Bottom */
 .footer-bottom {
   border-top: 1px solid #eaeaea;
   display: flex;

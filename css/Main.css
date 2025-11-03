@@ -210,3 +210,9 @@ main {
   color: #fff;
   border-color: #9a9c9f;
 }
+.allstars {
+  color: orange;
+}
+.greystar {
+  color: lightgrey;
+}
